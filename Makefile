@@ -8,5 +8,5 @@ setup:
 	@pip install -r requirements.txt
 
 .PHONY: run
-setup:
+run:
 	@bash run.sh
