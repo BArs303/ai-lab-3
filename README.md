@@ -1,12 +1,11 @@
 Install
 
 ```bash
-pip install -e .
-pip install -r requirements.txt
+make setup
 ```
 
 Run
 
 ```bash
-uvicorn --factory app.main:create_app
+make run
 ```
